@@ -1,5 +1,3 @@
-# Название сценария
+# Захват изменений данных из Yandex Managed Service for YDB и поставка в Yandex Data Streams с помощью Yandex Data Transfer
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью сервиса [Data Transfer](https://cloud.yandex.ru/docs/data-transfer) вы можете поставлять данные из базы данных [Managed Service for YDB](https://cloud.yandex.ru/docs/ydb) в поток [Data Streams](https://cloud.yandex.ru/docs/data-streams) в реальном времени. Настройка через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/docs/data-transfer/tutorials/ydb-to-yds), необходимый для настройки конфигурационный файл [data-transfer-ydb-yds.tf](data-transfer-ydb-yds.tf) расположен в этом репозитории.
