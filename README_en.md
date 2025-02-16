@@ -1,0 +1,3 @@
+# Capturing data changes from Yandex Managed Service for YDB and delivering them to Yandex Data Streams through Yandex Data Transfer
+
+With [Data Transfer](https://yandex.cloud/en/docs/data-transfer), you can deliver data from a [Managed Service for YDB](https://yandex.cloud/en/docs/ydb) database to a [Data Streams](https://yandex.cloud/en/docs/data-streams) stream in real time. See [this tutorial](https://yandex.cloud/en/docs/data-transfer/tutorials/ydb-to-yds) to learn how to set up the solution with Terraform. This repository contains the configuration file you will need: [data-transfer-ydb-yds.tf](data-transfer-ydb-yds.tf).
